@@ -1,0 +1,4 @@
+*.ktx2 !text !filter !merge !diff
+*.bmesh !text !filter !merge !diff
+*.bmaterial !text !filter !merge !diff
+*.blevel !text !filter !merge !diff
