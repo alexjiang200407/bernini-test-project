@@ -1,3 +1,12 @@
+* text=auto
+
+# Bernini binary assets. Baked meshes, materials and levels are binary containers,
+# and KTX2 textures are GPU-compressed blocks: none of them diff or merge.
+*.ktx2 filter=lfs diff=lfs merge=lfs -text
+*.bmesh filter=lfs diff=lfs merge=lfs -text
+*.bmaterial filter=lfs diff=lfs merge=lfs -text
+*.blevel filter=lfs diff=lfs merge=lfs -text
+*.berniniproject text eol=lf
 *.ktx2 !text !filter !merge !diff
 *.bmesh !text !filter !merge !diff
 *.bmaterial !text !filter !merge !diff

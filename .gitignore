@@ -1,0 +1,3 @@
+# Material bake output. Written in the target's block format (BC1/BC5/BC7), so it is
+# regenerated per platform from Data/textures_src/ rather than shared.
+/Data/Textures/
