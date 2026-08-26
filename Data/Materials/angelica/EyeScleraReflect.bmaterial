@@ -1,6 +1,9 @@
 {
 	"alphaCutoff": 0.5,
 	"alphaMode": "blend",
+	"baked": {
+		"normal": "Textures/normal_1c84c7352aa6608c.ktx2"
+	},
 	"baseColorFactor": [
 		0.2623106,
 		0.2623106,
@@ -14,14 +17,14 @@
 	"routes": {
 		"normalX": {
 			"channel": 0,
-			"stampHash": 0,
-			"stampSize": 0,
+			"stampHash": 15075835631328227839,
+			"stampSize": 5592912,
 			"texture": "textures_src/angelica/tex7.ktx2"
 		},
 		"normalY": {
 			"channel": 1,
-			"stampHash": 0,
-			"stampSize": 0,
+			"stampHash": 15075835631328227839,
+			"stampSize": 5592912,
 			"texture": "textures_src/angelica/tex7.ktx2"
 		}
 	},

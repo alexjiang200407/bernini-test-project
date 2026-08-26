@@ -1,6 +1,9 @@
 {
 	"alphaCutoff": 0.5,
 	"alphaMode": "opaque",
+	"baked": {
+		"baseColor": "Textures/basecolor_505b10ded377d793.ktx2"
+	},
 	"baseColorFactor": [
 		1.0,
 		1.0,
@@ -14,20 +17,20 @@
 	"routes": {
 		"baseColorB": {
 			"channel": 2,
-			"stampHash": 0,
-			"stampSize": 0,
+			"stampHash": 13513220063691987429,
+			"stampSize": 87808,
 			"texture": "textures_src/angelica/tex6.ktx2"
 		},
 		"baseColorG": {
 			"channel": 1,
-			"stampHash": 0,
-			"stampSize": 0,
+			"stampHash": 13513220063691987429,
+			"stampSize": 87808,
 			"texture": "textures_src/angelica/tex6.ktx2"
 		},
 		"baseColorR": {
 			"channel": 0,
-			"stampHash": 0,
-			"stampSize": 0,
+			"stampHash": 13513220063691987429,
+			"stampSize": 87808,
 			"texture": "textures_src/angelica/tex6.ktx2"
 		}
 	},
