@@ -2,7 +2,7 @@
 	"alphaCutoff": 0.5,
 	"alphaMode": "opaque",
 	"baked": {
-		"baseColor": "Textures/basecolor_505b10ded377d793.ktx2"
+		"baseColor": "Textures/basecolor_357d2c79e854540b.ktx2"
 	},
 	"baseColorFactor": [
 		1.0,
@@ -10,7 +10,7 @@
 		1.0,
 		1.0
 	],
-	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":1}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":1,\"baseColorB\":1,\"baseColorG\":1,\"baseColorR\":1,\"metallic\":0,\"model-name\":\"MaterialOutput\",\"roughness\":0.5860000252723694,\"specular\":1,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false]},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"textures_src/angelica/tex6.ktx2\"},\"position\":{\"x\":-160,\"y\":0}}]}",
+	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":1}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":1,\"baseColorB\":1,\"baseColorG\":1,\"baseColorR\":1,\"metallic\":0,\"model-name\":\"MaterialOutput\",\"roughness\":0.5860000252723694,\"specular\":1,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false]},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"textures_src/angelica/tex_9c097e0a2261aa28.ktx2\"},\"position\":{\"x\":-160,\"y\":0}}]}",
 	"metallicFactor": 0.0,
 	"name": "material",
 	"roughnessFactor": 0.586,

@@ -2,7 +2,7 @@
 	"alphaCutoff": 0.5,
 	"alphaMode": "blend",
 	"baked": {
-		"normal": "Textures/normal_b0df40093f1b74f8.ktx2"
+		"normal": "Textures/normal_5e08e2a5f0e43f82.ktx2"
 	},
 	"baseColorFactor": [
 		0.9999999,
@@ -10,7 +10,7 @@
 		0.9999999,
 		0.0
 	],
-	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":2,\"outNodeId\":1,\"outPortIndex\":2}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":0,\"baseColorB\":0.9999998807907104,\"baseColorG\":0.9999998807907104,\"baseColorR\":0.9999998807907104,\"metallic\":0.9999998211860657,\"model-name\":\"BlendedMaterialOutput\",\"roughness\":0,\"specular\":1,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false],\"transmission\":0},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"textures_src/angelica/tex10.ktx2\"},\"position\":{\"x\":-160,\"y\":0}}]}",
+	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":2,\"outNodeId\":1,\"outPortIndex\":2}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":0,\"baseColorB\":0.9999998807907104,\"baseColorG\":0.9999998807907104,\"baseColorR\":0.9999998807907104,\"metallic\":0.9999998211860657,\"model-name\":\"BlendedMaterialOutput\",\"roughness\":0,\"specular\":1,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false],\"transmission\":0},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"textures_src/angelica/tex_70bdbfbbddcab26c.ktx2\"},\"position\":{\"x\":-160,\"y\":0}}]}",
 	"metallicFactor": 0.9999998,
 	"name": "MeniscusEye",
 	"roughnessFactor": 0.0,
