@@ -8,6 +8,14 @@
 		"MeniscusEyeSpec_MeniscusEye_0": "Authored/Materials/angelica/MeniscusEye.bmaterial",
 		"Mouth_Mouth_0": "Authored/Materials/angelica/Mouth.bmaterial"
 	},
+	"meshOptions": {
+		"Hair_Hair_0": {
+			"rimIntensity": 1.5
+		},
+		"Head_Head_0": {
+			"rimIntensity": 1.0
+		}
+	},
 	"outputs": [
 		"Derived/Meshes/angelica/angelica.bmesh"
 	],

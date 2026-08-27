@@ -1,0 +1,19 @@
+{
+	"name": "brown_photostudio_02_2k",
+	"pbr": {
+		"lighting": "Derived/EnvLighting/brown_photostudio_02_2k.benvl"
+	},
+	"rim": {
+		"intensity": 1.5,
+		"power": 4.0,
+		"tint": [
+			1.0,
+			1.0,
+			1.0
+		]
+	},
+	"shadingModel": "pbr",
+	"sky": "Derived/Sky/brown_photostudio_02_2k.bsky",
+	"skyMipLevel": 0,
+	"skyRotationY": 0.0
+}

@@ -1,7 +1,7 @@
 # Everything a bake or an import computed. `assetlib_cli migrate` reads each .bimport's `outputs`
 # and writes back whatever is not on disk, byte for byte, so none of it is work.
 # See bernini/docs/asset_containers.md.
-/Data/Derived/
+/Data/Derived/*
 
 # ...except the environment family. Its bake reads a .hdr, no project copies its .hdr in, and the
 # producing walk reads only .bimport documents -- so nothing puts an absent one back. These lines go

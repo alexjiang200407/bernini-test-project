@@ -2,6 +2,11 @@
 	"bindings": {
 		"Mesh": "Authored/Materials/AnimalFriends/Coyote/Coyote.bmaterial"
 	},
+	"meshOptions": {
+		"Mesh": {
+			"rimIntensity": 1.0
+		}
+	},
 	"outputs": [
 		"Derived/Animations/AnimalFriends/Coyote/Coyote.banim",
 		"Derived/Meshes/AnimalFriends/Coyote/Coyote.bmesh",
