@@ -10,5 +10,8 @@
 	"parameters": {
 		"sampleRate": 30.0
 	},
-	"skeleton": "Skeletons/AnimalFriends/Coyote/Coyote.bskel"
+	"skeleton": "Skeletons/AnimalFriends/Coyote/Coyote.bskel",
+	"textureDir": "textures_src/AnimalFriends/Coyote",
+	"textureStampHash": 5824247785881596703,
+	"textureStampSize": 4273712
 }

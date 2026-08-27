@@ -13,5 +13,8 @@
 	],
 	"parameters": {
 		"sampleRate": 30.0
-	}
+	},
+	"textureDir": "textures_src/angelica",
+	"textureStampHash": 8433352498941637577,
+	"textureStampSize": 22734800
 }

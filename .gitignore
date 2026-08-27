@@ -5,6 +5,12 @@
 *.bskel
 *.banim
 
+# The textures a mesh import extracts from its .glb, named after the image they came from.
+# Reproduced byte for byte whenever the folder is absent, from the `textureDir` its .bimport
+# records -- which is the only signal there is, since a .ktx2 carries no header of its own.
+# Everything under here is import output; authored images do not belong in it.
+/Data/textures_src/
+
 # Material bake output. Written in the target's block format (BC1/BC5/BC7), so it is
 # regenerated per platform from Data/textures_src/ rather than shared.
 /Data/Textures/
