@@ -19,19 +19,19 @@
 			"channel": 2,
 			"stampHash": 13513220063691987429,
 			"stampSize": 87808,
-			"texture": "textures_src/angelica/tex6.ktx2"
+			"texture": "textures_src/angelica/tex_9c097e0a2261aa28.ktx2"
 		},
 		"baseColorG": {
 			"channel": 1,
 			"stampHash": 13513220063691987429,
 			"stampSize": 87808,
-			"texture": "textures_src/angelica/tex6.ktx2"
+			"texture": "textures_src/angelica/tex_9c097e0a2261aa28.ktx2"
 		},
 		"baseColorR": {
 			"channel": 0,
 			"stampHash": 13513220063691987429,
 			"stampSize": 87808,
-			"texture": "textures_src/angelica/tex6.ktx2"
+			"texture": "textures_src/angelica/tex_9c097e0a2261aa28.ktx2"
 		}
 	},
 	"shadingModel": "pbr",
