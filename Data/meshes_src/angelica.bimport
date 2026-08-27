@@ -8,6 +8,9 @@
 		"MeniscusEyeSpec_MeniscusEye_0": "Materials/angelica/MeniscusEye.bmaterial",
 		"Mouth_Mouth_0": "Materials/angelica/Mouth.bmaterial"
 	},
+	"outputs": [
+		"Meshes/angelica/angelica.bmesh"
+	],
 	"parameters": {
 		"sampleRate": 30.0
 	}

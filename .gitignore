@@ -1,3 +1,10 @@
+# Derived containers produced from the sources beside them. `assetlib_cli migrate` reads each
+# .bimport's `outputs` and writes back whatever is not on disk, byte for byte, so none of these
+# is work. See bernini/docs/asset_containers.md.
+*.bmesh
+*.bskel
+*.banim
+
 # Material bake output. Written in the target's block format (BC1/BC5/BC7), so it is
 # regenerated per platform from Data/textures_src/ rather than shared.
 /Data/Textures/
@@ -5,3 +12,10 @@
 # VAT bake output. Wholly derived from the .bmesh/.bskel/.banim it stamps and re-baked on
 # demand when any of them changes, so it is never committed.
 *.bvat
+
+# .bsky and .benvl are derived too and are deliberately *not* here: nothing produces an absent
+# one. The bakes run from a .hdr, no project copies its .hdr in, and the producing walk reads
+# only .bimport documents. They can be ignored once an env source lives in the project.
+
+# macOS Finder droppings.
+.DS_Store

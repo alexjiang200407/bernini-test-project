@@ -1,13 +1,16 @@
 * text=auto
 
-# Bernini binary assets. Baked meshes, materials and levels are binary containers,
-# and KTX2 textures are GPU-compressed blocks: none of them diff or merge.
-*.ktx2 filter=lfs diff=lfs merge=lfs -text
-*.bmesh filter=lfs diff=lfs merge=lfs -text
-*.bmaterial filter=lfs diff=lfs merge=lfs -text
-*.blevel filter=lfs diff=lfs merge=lfs -text
+# Authored documents: canonical JSON, and diffing and merging them is the point. LF on every
+# platform, because the writers emit LF and `assetlib_cli migrate` byte-compares -- an autocrlf
+# checkout would otherwise re-report every one of them on every run.
 *.berniniproject text eol=lf
-*.ktx2 !text !filter !merge !diff
-*.bmesh !text !filter !merge !diff
-*.bmaterial !text !filter !merge !diff
-*.blevel !text !filter !merge !diff
+*.bimport        text eol=lf
+*.bmaterial      text eol=lf
+*.benv           text eol=lf
+
+# Everything else committed here is bytes: the glTF sources, the GPU-compressed textures, and
+# the derived containers .gitignore does not cover. None of them diff or merge.
+*.glb   binary
+*.ktx2  binary
+*.bsky  binary
+*.benvl binary
