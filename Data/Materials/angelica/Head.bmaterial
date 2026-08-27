@@ -11,8 +11,8 @@
 		0.9999996,
 		1.0
 	],
-	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":1},{\"inNodeId\":0,\"inPortIndex\":2,\"outNodeId\":2,\"outPortIndex\":2}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":1,\"baseColorB\":0.9999995827674866,\"baseColorG\":0.9999995827674866,\"baseColorR\":0.9999995827674866,\"metallic\":0.04899999871850014,\"model-name\":\"MaterialOutput\",\"roughness\":0.6349999904632568,\"specular\":1,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false]},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"textures_src/angelica/tex2.ktx2\"},\"position\":{\"x\":-160,\"y\":0}},{\"id\":2,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"textures_src/angelica/tex4.ktx2\"},\"position\":{\"x\":-160,\"y\":210}}]}",
-	"metallicFactor": 0.049,
+	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":1},{\"inNodeId\":0,\"inPortIndex\":2,\"outNodeId\":2,\"outPortIndex\":2}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":1,\"baseColorB\":0.9999995827674866,\"baseColorG\":0.9999995827674866,\"baseColorR\":0.9999995827674866,\"metallic\":0.05000000074505806,\"model-name\":\"MaterialOutput\",\"roughness\":0.6349999904632568,\"specular\":1,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false]},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"textures_src/angelica/tex2.ktx2\"},\"position\":{\"x\":-160,\"y\":0}},{\"id\":2,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"textures_src/angelica/tex4.ktx2\"},\"position\":{\"x\":-160,\"y\":210}}]}",
+	"metallicFactor": 0.05,
 	"name": "Head",
 	"roughnessFactor": 0.635,
 	"routes": {
