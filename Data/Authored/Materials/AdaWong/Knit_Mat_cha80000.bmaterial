@@ -1,0 +1,77 @@
+{
+	"alphaCutoff": 0.5,
+	"alphaMode": "opaque",
+	"baked": {
+		"baseColor": "Derived/BakedTextures/basecolor_d50ca4b3d2d20fd0.ktx2",
+		"normal": "Derived/BakedTextures/normal_81dbab13dc297700.ktx2",
+		"orm": "Derived/BakedTextures/orm_28707428f416fb59.ktx2"
+	},
+	"baseColorFactor": [
+		1.0,
+		1.0,
+		1.0,
+		1.0
+	],
+	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":1},{\"inNodeId\":0,\"inPortIndex\":1,\"outNodeId\":2,\"outPortIndex\":1},{\"inNodeId\":0,\"inPortIndex\":2,\"outNodeId\":3,\"outPortIndex\":2}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":1,\"baseColorB\":1,\"baseColorG\":1,\"baseColorR\":1,\"metallic\":0,\"model-name\":\"MaterialOutput\",\"roughness\":1,\"specular\":1,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false]},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/upperbody_bc.ktx2\"},\"position\":{\"x\":-160,\"y\":0}},{\"id\":2,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/upperbody_orm.ktx2\"},\"position\":{\"x\":-160,\"y\":210}},{\"id\":3,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/upperbody_nrm.ktx2\"},\"position\":{\"x\":-160,\"y\":420}}]}",
+	"metallicFactor": 0.0,
+	"name": "Knit_Mat_cha80000",
+	"roughnessFactor": 1.0,
+	"routes": {
+		"ao": {
+			"channel": 0,
+			"stampHash": 1153317888868197428,
+			"stampSize": 1398576,
+			"texture": "Derived/SourceTextures/AdaWong/upperbody_orm.ktx2"
+		},
+		"baseColorB": {
+			"channel": 2,
+			"stampHash": 2586171666015484837,
+			"stampSize": 5592912,
+			"texture": "Derived/SourceTextures/AdaWong/upperbody_bc.ktx2"
+		},
+		"baseColorG": {
+			"channel": 1,
+			"stampHash": 2586171666015484837,
+			"stampSize": 5592912,
+			"texture": "Derived/SourceTextures/AdaWong/upperbody_bc.ktx2"
+		},
+		"baseColorR": {
+			"channel": 0,
+			"stampHash": 2586171666015484837,
+			"stampSize": 5592912,
+			"texture": "Derived/SourceTextures/AdaWong/upperbody_bc.ktx2"
+		},
+		"metallic": {
+			"channel": 2,
+			"stampHash": 1153317888868197428,
+			"stampSize": 1398576,
+			"texture": "Derived/SourceTextures/AdaWong/upperbody_orm.ktx2"
+		},
+		"normalX": {
+			"channel": 0,
+			"stampHash": 13264330619097405613,
+			"stampSize": 5592912,
+			"texture": "Derived/SourceTextures/AdaWong/upperbody_nrm.ktx2"
+		},
+		"normalY": {
+			"channel": 1,
+			"stampHash": 13264330619097405613,
+			"stampSize": 5592912,
+			"texture": "Derived/SourceTextures/AdaWong/upperbody_nrm.ktx2"
+		},
+		"roughness": {
+			"channel": 1,
+			"stampHash": 1153317888868197428,
+			"stampSize": 1398576,
+			"texture": "Derived/SourceTextures/AdaWong/upperbody_orm.ktx2"
+		}
+	},
+	"shadingModel": "pbr",
+	"specularColorFactor": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"specularFactor": 1.0,
+	"transmissionFactor": 0.0
+}

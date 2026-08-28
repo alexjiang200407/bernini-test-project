@@ -1,0 +1,58 @@
+{
+	"alphaCutoff": 0.5,
+	"alphaMode": "blend",
+	"baked": {
+		"normal": "Derived/BakedTextures/normal_020be3ad07dabaaa.ktx2",
+		"orm": "Derived/BakedTextures/orm_22fd3217bb8acabc.ktx2"
+	},
+	"baseColorFactor": [
+		0.8,
+		0.8,
+		0.8,
+		0.03
+	],
+	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":1,\"outNodeId\":1,\"outPortIndex\":1},{\"inNodeId\":0,\"inPortIndex\":2,\"outNodeId\":2,\"outPortIndex\":2}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":0.029999999329447746,\"baseColorB\":0.800000011920929,\"baseColorG\":0.800000011920929,\"baseColorR\":0.800000011920929,\"metallic\":0,\"model-name\":\"BlendedMaterialOutput\",\"roughness\":1,\"specular\":1,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false],\"transmission\":0},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/eyecover_orm.ktx2\"},\"position\":{\"x\":-160,\"y\":0}},{\"id\":2,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/eyecover_nrm.ktx2\"},\"position\":{\"x\":-160,\"y\":210}}]}",
+	"metallicFactor": 0.0,
+	"name": "Eye_out_mat_cha80010",
+	"roughnessFactor": 1.0,
+	"routes": {
+		"ao": {
+			"channel": 0,
+			"stampHash": 446721553692856860,
+			"stampSize": 87808,
+			"texture": "Derived/SourceTextures/AdaWong/eyecover_orm.ktx2"
+		},
+		"metallic": {
+			"channel": 2,
+			"stampHash": 446721553692856860,
+			"stampSize": 87808,
+			"texture": "Derived/SourceTextures/AdaWong/eyecover_orm.ktx2"
+		},
+		"normalX": {
+			"channel": 0,
+			"stampHash": 12083622004499324576,
+			"stampSize": 87808,
+			"texture": "Derived/SourceTextures/AdaWong/eyecover_nrm.ktx2"
+		},
+		"normalY": {
+			"channel": 1,
+			"stampHash": 12083622004499324576,
+			"stampSize": 87808,
+			"texture": "Derived/SourceTextures/AdaWong/eyecover_nrm.ktx2"
+		},
+		"roughness": {
+			"channel": 1,
+			"stampHash": 446721553692856860,
+			"stampSize": 87808,
+			"texture": "Derived/SourceTextures/AdaWong/eyecover_orm.ktx2"
+		}
+	},
+	"shadingModel": "pbr",
+	"specularColorFactor": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"specularFactor": 1.0,
+	"transmissionFactor": 0.0
+}

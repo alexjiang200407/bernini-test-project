@@ -1,0 +1,43 @@
+{
+	"bindings": {
+		"cha80000_1_Group_0_Sub_1__HolsterStrap_Mat_mesh0000": "Authored/Materials/AdaWong/HolsterStrap_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_0_Sub_2__HolsterMetal_Mat_mesh0001": "Authored/Materials/AdaWong/HolsterMetal_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_0_Sub_3__Glove_Mat_mesh0002": "Authored/Materials/AdaWong/Glove_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_0_Sub_4__Skin_Mat_mesh0003": "Authored/Materials/AdaWong/Skin_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_0_Sub_5__Knit_Mat_mesh0004": "Authored/Materials/AdaWong/Knit_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_1_Sub_1__BeltHolster_Leather_Mat_mesh0006": "Authored/Materials/AdaWong/BeltHolster_Leather_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_1_Sub_2__BeltHolster_Inside_Mat_mesh0007": "Authored/Materials/AdaWong/BeltHolster_Inside_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_1_Sub_3__BeltHolster_Metal_Mat_mesh0008": "Authored/Materials/AdaWong/BeltHolster_Metal_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_1_Sub_4__HookHolster_Mat_mesh0009": "Authored/Materials/AdaWong/HookHolster_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_1_Sub_5__Knit_Mat_mesh0005": "Authored/Materials/AdaWong/Knit_Mat_cha80000.001.bmaterial",
+		"cha80000_1_Group_1_Sub_6__Leg_Mat_mesh0010": "Authored/Materials/AdaWong/Leg_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_1_Sub_7__BootsMetal_Mat_mesh0011": "Authored/Materials/AdaWong/BootsMetal_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_1_Sub_8__BootsLeather_Mat_mesh0012": "Authored/Materials/AdaWong/BootsLeather_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_1_Sub_9__BootsSole_Mat_mesh0013": "Authored/Materials/AdaWong/BootsSole_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_2_Sub_1__sm61_541_A_Mat_mesh0014": "Authored/Materials/AdaWong/sm61_541_A_Mat_cha80000.bmaterial",
+		"cha80000_1_Group_3_Sub_1__Gun_Mat_mesh0015": "Authored/Materials/AdaWong/Gun_Mat_cha80000.bmaterial",
+		"cha80010_1_Group_0_Sub_1__Face_mat_mesh0016": "Authored/Materials/AdaWong/Face_mat_cha80010.bmaterial",
+		"cha80010_1_Group_0_Sub_2__Mouth_mat_mesh0017": "Authored/Materials/AdaWong/Mouth_mat_cha80010.bmaterial",
+		"cha80010_1_Group_0_Sub_3__Eyewet_mat_mesh0018": "Authored/Materials/AdaWong/Eyewet_mat_cha80010.bmaterial",
+		"cha80010_1_Group_0_Sub_4__Ao_mat_mesh0019": "Authored/Materials/AdaWong/Ao_mat_cha80010.bmaterial",
+		"cha80010_1_Group_0_Sub_5__Eye_out_mat_mesh0020": "Authored/Materials/AdaWong/Eye_out_mat_cha80010.bmaterial",
+		"cha80010_1_Group_0_Sub_6__Eye_in_mat_mesh0021": "Authored/Materials/AdaWong/Eye_in_mat_cha80010.bmaterial",
+		"cha80010_1_Group_0_Sub_7__EyeLash_mat_mesh0022": "Authored/Materials/AdaWong/EyeLash_mat_cha80010.bmaterial",
+		"cha80010_1_Group_0_Sub_8__Blow_mat_mesh0023": "Authored/Materials/AdaWong/Blow_mat_cha80010.bmaterial",
+		"cha80020_1_Group_0_Sub_1__Hair00_mat_mesh0024": "Authored/Materials/AdaWong/Hair00_mat_cha80020.bmaterial",
+		"cha80020_1_Group_0_Sub_2__Hair02_mat_mesh0025": "Authored/Materials/AdaWong/Hair02_mat_cha80020.bmaterial",
+		"cha80020_1_Group_0_Sub_3__Hair01_mat_mesh0026": "Authored/Materials/AdaWong/Hair01_mat_cha80020.bmaterial"
+	},
+	"outputs": [
+		"Derived/Animations/AdaWong/cha800_00.reduced.banim",
+		"Derived/Meshes/AdaWong/cha800_00.reduced.bmesh",
+		"Derived/Skeletons/AdaWong/cha800_00.reduced.bskel"
+	],
+	"parameters": {
+		"sampleRate": 30.0
+	},
+	"skeleton": "Derived/Skeletons/AdaWong/cha800_00.reduced.bskel",
+	"textureDir": "Derived/SourceTextures/AdaWong",
+	"textureStampHash": 7995911095450641242,
+	"textureStampSize": 97612520
+}

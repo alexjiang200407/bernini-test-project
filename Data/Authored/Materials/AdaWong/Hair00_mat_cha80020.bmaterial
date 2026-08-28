@@ -1,0 +1,83 @@
+{
+	"alphaCutoff": 0.5,
+	"alphaMode": "hashed",
+	"baked": {
+		"baseColor": "Derived/BakedTextures/basecolor_b382bdf4d1395075.ktx2",
+		"normal": "Derived/BakedTextures/normal_660e61843dd5062a.ktx2",
+		"orm": "Derived/BakedTextures/orm_78f8d10241a0912c.ktx2"
+	},
+	"baseColorFactor": [
+		0.3739681,
+		0.3739681,
+		0.3739681,
+		1.0
+	],
+	"editorGraph": "{\"connections\":[{\"inNodeId\":6,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":0},{\"inNodeId\":6,\"inPortIndex\":1,\"outNodeId\":2,\"outPortIndex\":1},{\"inNodeId\":6,\"inPortIndex\":2,\"outNodeId\":3,\"outPortIndex\":2}],\"nodes\":[{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/hair_bc.ktx2\"},\"position\":{\"x\":-160,\"y\":0}},{\"id\":2,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/hair_orm.ktx2\"},\"position\":{\"x\":-160,\"y\":210}},{\"id\":3,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/hair_nrm.ktx2\"},\"position\":{\"x\":-160,\"y\":420}},{\"id\":6,\"internal-data\":{\"baseColorA\":1,\"baseColorB\":0.37396809458732605,\"baseColorG\":0.37396809458732605,\"baseColorR\":0.37396809458732605,\"metallic\":0,\"model-name\":\"HashedAlphaMaterialOutput\",\"roughness\":1,\"specular\":0.4000000059604645,\"specularB\":1,\"specularG\":1,\"specularR\":0.9902952909469604,\"split\":[false,false,false]},\"position\":{\"x\":220,\"y\":40}}]}",
+	"metallicFactor": 0.0,
+	"name": "Hair00_mat_cha80020",
+	"roughnessFactor": 1.0,
+	"routes": {
+		"ao": {
+			"channel": 0,
+			"stampHash": 5807483765403651208,
+			"stampSize": 699536,
+			"texture": "Derived/SourceTextures/AdaWong/hair_orm.ktx2"
+		},
+		"baseColorA": {
+			"channel": 3,
+			"stampHash": 15934546137931024639,
+			"stampSize": 2796720,
+			"texture": "Derived/SourceTextures/AdaWong/hair_bc.ktx2"
+		},
+		"baseColorB": {
+			"channel": 2,
+			"stampHash": 15934546137931024639,
+			"stampSize": 2796720,
+			"texture": "Derived/SourceTextures/AdaWong/hair_bc.ktx2"
+		},
+		"baseColorG": {
+			"channel": 1,
+			"stampHash": 15934546137931024639,
+			"stampSize": 2796720,
+			"texture": "Derived/SourceTextures/AdaWong/hair_bc.ktx2"
+		},
+		"baseColorR": {
+			"channel": 0,
+			"stampHash": 15934546137931024639,
+			"stampSize": 2796720,
+			"texture": "Derived/SourceTextures/AdaWong/hair_bc.ktx2"
+		},
+		"metallic": {
+			"channel": 2,
+			"stampHash": 5807483765403651208,
+			"stampSize": 699536,
+			"texture": "Derived/SourceTextures/AdaWong/hair_orm.ktx2"
+		},
+		"normalX": {
+			"channel": 0,
+			"stampHash": 3289879975291851143,
+			"stampSize": 2796720,
+			"texture": "Derived/SourceTextures/AdaWong/hair_nrm.ktx2"
+		},
+		"normalY": {
+			"channel": 1,
+			"stampHash": 3289879975291851143,
+			"stampSize": 2796720,
+			"texture": "Derived/SourceTextures/AdaWong/hair_nrm.ktx2"
+		},
+		"roughness": {
+			"channel": 1,
+			"stampHash": 5807483765403651208,
+			"stampSize": 699536,
+			"texture": "Derived/SourceTextures/AdaWong/hair_orm.ktx2"
+		}
+	},
+	"shadingModel": "pbr",
+	"specularColorFactor": [
+		0.9902953,
+		1.0,
+		1.0
+	],
+	"specularFactor": 0.4,
+	"transmissionFactor": 0.0
+}
