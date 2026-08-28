@@ -2,7 +2,7 @@
 	"alphaCutoff": 0.5,
 	"alphaMode": "blend",
 	"baked": {
-		"baseColor": "Derived/BakedTextures/basecolor_8c236ff6072da93a.ktx2"
+		"baseColor": "Derived/BakedTextures/basecolor_3b5f05345cdb4205.ktx2"
 	},
 	"baseColorFactor": [
 		0.013006525,
