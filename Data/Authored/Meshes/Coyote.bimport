@@ -1,0 +1,17 @@
+{
+	"bindings": {
+		"Mesh": "Authored/Materials/AnimalFriends/Coyote/Coyote.bmaterial"
+	},
+	"outputs": [
+		"Derived/Animations/AnimalFriends/Coyote/Coyote.banim",
+		"Derived/Meshes/AnimalFriends/Coyote/Coyote.bmesh",
+		"Derived/Skeletons/AnimalFriends/Coyote/Coyote.bskel"
+	],
+	"parameters": {
+		"sampleRate": 30.0
+	},
+	"skeleton": "Derived/Skeletons/AnimalFriends/Coyote/Coyote.bskel",
+	"textureDir": "Derived/SourceTextures/AnimalFriends/Coyote",
+	"textureStampHash": 5824247785881596703,
+	"textureStampSize": 4273712
+}

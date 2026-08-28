@@ -1,0 +1,51 @@
+{
+	"alphaCutoff": 0.5,
+	"alphaMode": "hashed",
+	"baked": {
+		"baseColor": "Derived/BakedTextures/basecolor_d5bfd9acd78e6e2a.ktx2"
+	},
+	"baseColorFactor": [
+		0.5252028,
+		0.5252028,
+		0.5252028,
+		0.74715906
+	],
+	"editorGraph": "{\"connections\":[{\"inNodeId\":2,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":0}],\"nodes\":[{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/angelica/tex_8a8744e21dbc5e7a.ktx2\"},\"position\":{\"x\":-160,\"y\":0}},{\"id\":2,\"internal-data\":{\"baseColorA\":0.7471590638160706,\"baseColorB\":0.5252028107643127,\"baseColorG\":0.5252028107643127,\"baseColorR\":0.5252028107643127,\"metallic\":0,\"model-name\":\"HashedAlphaMaterialOutput\",\"roughness\":0.7620000243186951,\"specular\":0.30000001192092896,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false]},\"position\":{\"x\":220,\"y\":40}}]}",
+	"metallicFactor": 0.0,
+	"name": "Hair",
+	"roughnessFactor": 0.762,
+	"routes": {
+		"baseColorA": {
+			"channel": 3,
+			"stampHash": 11654977900751729646,
+			"stampSize": 11185344,
+			"texture": "Derived/SourceTextures/angelica/tex_8a8744e21dbc5e7a.ktx2"
+		},
+		"baseColorB": {
+			"channel": 2,
+			"stampHash": 11654977900751729646,
+			"stampSize": 11185344,
+			"texture": "Derived/SourceTextures/angelica/tex_8a8744e21dbc5e7a.ktx2"
+		},
+		"baseColorG": {
+			"channel": 1,
+			"stampHash": 11654977900751729646,
+			"stampSize": 11185344,
+			"texture": "Derived/SourceTextures/angelica/tex_8a8744e21dbc5e7a.ktx2"
+		},
+		"baseColorR": {
+			"channel": 0,
+			"stampHash": 11654977900751729646,
+			"stampSize": 11185344,
+			"texture": "Derived/SourceTextures/angelica/tex_8a8744e21dbc5e7a.ktx2"
+		}
+	},
+	"shadingModel": "pbr",
+	"specularColorFactor": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"specularFactor": 0.3,
+	"transmissionFactor": 0.0
+}

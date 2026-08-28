@@ -1,0 +1,58 @@
+{
+	"alphaCutoff": 0.5,
+	"alphaMode": "opaque",
+	"baked": {
+		"baseColor": "Derived/BakedTextures/basecolor_0c8d0e720b0b29f7.ktx2",
+		"normal": "Derived/BakedTextures/normal_678c4a709acbc6ac.ktx2"
+	},
+	"baseColorFactor": [
+		0.9999996,
+		0.9999996,
+		0.9999996,
+		1.0
+	],
+	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":1},{\"inNodeId\":0,\"inPortIndex\":2,\"outNodeId\":2,\"outPortIndex\":2}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":1,\"baseColorB\":0.9999995827674866,\"baseColorG\":0.9999995827674866,\"baseColorR\":0.9999995827674866,\"metallic\":0.05000000074505806,\"model-name\":\"MaterialOutput\",\"roughness\":0.6349999904632568,\"specular\":1,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false]},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/angelica/tex_20f42759c869af65.ktx2\"},\"position\":{\"x\":-160,\"y\":0}},{\"id\":2,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/angelica/tex_b18707ee8c86a754.ktx2\"},\"position\":{\"x\":-160,\"y\":210}}]}",
+	"metallicFactor": 0.05,
+	"name": "Head",
+	"roughnessFactor": 0.635,
+	"routes": {
+		"baseColorB": {
+			"channel": 2,
+			"stampHash": 6782327436264268498,
+			"stampSize": 5592912,
+			"texture": "Derived/SourceTextures/angelica/tex_20f42759c869af65.ktx2"
+		},
+		"baseColorG": {
+			"channel": 1,
+			"stampHash": 6782327436264268498,
+			"stampSize": 5592912,
+			"texture": "Derived/SourceTextures/angelica/tex_20f42759c869af65.ktx2"
+		},
+		"baseColorR": {
+			"channel": 0,
+			"stampHash": 6782327436264268498,
+			"stampSize": 5592912,
+			"texture": "Derived/SourceTextures/angelica/tex_20f42759c869af65.ktx2"
+		},
+		"normalX": {
+			"channel": 0,
+			"stampHash": 403067901490000559,
+			"stampSize": 5592912,
+			"texture": "Derived/SourceTextures/angelica/tex_b18707ee8c86a754.ktx2"
+		},
+		"normalY": {
+			"channel": 1,
+			"stampHash": 403067901490000559,
+			"stampSize": 5592912,
+			"texture": "Derived/SourceTextures/angelica/tex_b18707ee8c86a754.ktx2"
+		}
+	},
+	"shadingModel": "pbr",
+	"specularColorFactor": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"specularFactor": 1.0,
+	"transmissionFactor": 0.0
+}

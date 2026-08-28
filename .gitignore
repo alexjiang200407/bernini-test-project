@@ -1,27 +1,13 @@
-# Derived containers produced from the sources beside them. `assetlib_cli migrate` reads each
-# .bimport's `outputs` and writes back whatever is not on disk, byte for byte, so none of these
-# is work. See bernini/docs/asset_containers.md.
-*.bmesh
-*.bskel
-*.banim
+# Everything a bake or an import computed. `assetlib_cli migrate` reads each .bimport's `outputs`
+# and writes back whatever is not on disk, byte for byte, so none of it is work.
+# See bernini/docs/asset_containers.md.
+/Data/Derived/
 
-# The textures a mesh import extracts from its .glb, named after the image they came from.
-# Reproduced byte for byte whenever the folder is absent, from the `textureDir` its .bimport
-# records -- which is the only signal there is, since a .ktx2 carries no header of its own.
-# Everything under here is import output; authored images do not belong in it.
-/Data/textures_src/
-
-# Material bake output. Written in the target's block format (BC1/BC5/BC7), so it is
-# regenerated per platform from Data/textures_src/ rather than shared.
-/Data/Textures/
-
-# VAT bake output. Wholly derived from the .bmesh/.bskel/.banim it stamps and re-baked on
-# demand when any of them changes, so it is never committed.
-*.bvat
-
-# .bsky and .benvl are derived too and are deliberately *not* here: nothing produces an absent
-# one. The bakes run from a .hdr, no project copies its .hdr in, and the producing walk reads
-# only .bimport documents. They can be ignored once an env source lives in the project.
+# ...except the environment family. Its bake reads a .hdr, no project copies its .hdr in, and the
+# producing walk reads only .bimport documents -- so nothing puts an absent one back. These lines go
+# the day an env source lives in the project beside the meshes'.
+!/Data/Derived/Sky/
+!/Data/Derived/EnvLighting/
 
 # macOS Finder droppings.
 .DS_Store

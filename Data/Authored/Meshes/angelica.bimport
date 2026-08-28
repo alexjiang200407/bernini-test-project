@@ -1,0 +1,20 @@
+{
+	"bindings": {
+		"EyeScleraReflect_EyeScleraReflect_0": "Authored/Materials/angelica/EyeScleraReflect.bmaterial",
+		"Eye_Eye_0": "Authored/Materials/angelica/material.bmaterial",
+		"Eyelashes_Eyelashes_0": "Authored/Materials/angelica/Eyelashes.bmaterial",
+		"Hair_Hair_0": "Authored/Materials/angelica/Hair.bmaterial",
+		"Head_Head_0": "Authored/Materials/angelica/Head.bmaterial",
+		"MeniscusEyeSpec_MeniscusEye_0": "Authored/Materials/angelica/MeniscusEye.bmaterial",
+		"Mouth_Mouth_0": "Authored/Materials/angelica/Mouth.bmaterial"
+	},
+	"outputs": [
+		"Derived/Meshes/angelica/angelica.bmesh"
+	],
+	"parameters": {
+		"sampleRate": 30.0
+	},
+	"textureDir": "Derived/SourceTextures/angelica",
+	"textureStampHash": 8433352498941637577,
+	"textureStampSize": 22734800
+}

@@ -3,7 +3,7 @@
 # Authored documents: canonical JSON, and diffing and merging them is the point. LF on every
 # platform, because the writers emit LF and `assetlib_cli migrate` byte-compares -- an autocrlf
 # checkout would otherwise re-report every one of them on every run.
-*.berniniproject text eol=lf
+*.bproj           text eol=lf
 *.bimport        text eol=lf
 *.bmaterial      text eol=lf
 *.benv           text eol=lf
