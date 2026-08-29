@@ -5,12 +5,12 @@
 		"baseColor": "Derived/BakedTextures/basecolor_6c6369824f2357c8.ktx2"
 	},
 	"baseColorFactor": [
-		1.0,
-		1.0,
-		1.0,
+		0.38850996,
+		0.38850996,
+		0.38850996,
 		1.0
 	],
-	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":1}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":1,\"baseColorB\":1,\"baseColorG\":1,\"baseColorR\":1,\"metallic\":0,\"model-name\":\"MaterialOutput\",\"roughness\":1,\"specular\":1,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false]},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/lash_bc.ktx2\"},\"position\":{\"x\":-160,\"y\":0}}]}",
+	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":1}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":1,\"baseColorB\":0.38850995898246765,\"baseColorG\":0.38850995898246765,\"baseColorR\":0.38850995898246765,\"metallic\":0,\"model-name\":\"MaterialOutput\",\"roughness\":1,\"specular\":0,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false]},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/lash_bc.ktx2\"},\"position\":{\"x\":-160,\"y\":0}}]}",
 	"metallicFactor": 0.0,
 	"name": "Blow_mat_cha80010",
 	"roughnessFactor": 1.0,
@@ -40,6 +40,6 @@
 		1.0,
 		1.0
 	],
-	"specularFactor": 1.0,
+	"specularFactor": 0.0,
 	"transmissionFactor": 0.0
 }

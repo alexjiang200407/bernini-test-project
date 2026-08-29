@@ -8,12 +8,12 @@
 		0.1600061,
 		0.11999695,
 		0.11000229,
-		0.15063706
+		0.0
 	],
-	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":0}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":0.15063706040382385,\"baseColorB\":0.11000228673219681,\"baseColorG\":0.11999695003032684,\"baseColorR\":0.1600061058998108,\"metallic\":0,\"model-name\":\"BlendedMaterialOutput\",\"roughness\":0,\"specular\":1,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false],\"transmission\":0.30000001192092896},\"position\":{\"x\":219,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/eyeao_bc.ktx2\"},\"position\":{\"x\":-160,\"y\":0}}]}",
+	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":0}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":0,\"baseColorB\":0.11000228673219681,\"baseColorG\":0.11999695003032684,\"baseColorR\":0.1600061058998108,\"metallic\":0,\"model-name\":\"BlendedMaterialOutput\",\"roughness\":1,\"specular\":0,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false],\"transmission\":0},\"position\":{\"x\":219,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/eyeao_bc.ktx2\"},\"position\":{\"x\":-160,\"y\":0}}]}",
 	"metallicFactor": 0.0,
 	"name": "Ao_mat_cha80010",
-	"roughnessFactor": 0.0,
+	"roughnessFactor": 1.0,
 	"routes": {
 		"baseColorA": {
 			"channel": 3,
@@ -46,6 +46,6 @@
 		1.0,
 		1.0
 	],
-	"specularFactor": 1.0,
-	"transmissionFactor": 0.3
+	"specularFactor": 0.0,
+	"transmissionFactor": 0.0
 }

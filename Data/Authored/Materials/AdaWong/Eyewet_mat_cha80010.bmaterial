@@ -8,9 +8,9 @@
 		1.0,
 		1.0,
 		1.0,
-		0.33000687
+		0.0
 	],
-	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":0}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":0.330006867647171,\"baseColorB\":1,\"baseColorG\":1,\"baseColorR\":1,\"metallic\":0,\"model-name\":\"BlendedMaterialOutput\",\"roughness\":0.05000000074505806,\"specular\":0,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false],\"transmission\":0},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/eyewet_bc.ktx2\"},\"position\":{\"x\":-160,\"y\":0}}]}",
+	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":0}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":0,\"baseColorB\":1,\"baseColorG\":1,\"baseColorR\":1,\"metallic\":0,\"model-name\":\"BlendedMaterialOutput\",\"roughness\":0.05000000074505806,\"specular\":0,\"specularB\":1,\"specularG\":1,\"specularR\":1,\"split\":[false,false,false],\"transmission\":0},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/AdaWong/eyewet_bc.ktx2\"},\"position\":{\"x\":-160,\"y\":0}}]}",
 	"metallicFactor": 0.0,
 	"name": "Eyewet_mat_cha80010",
 	"roughnessFactor": 0.05,
