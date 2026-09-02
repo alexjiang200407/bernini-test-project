@@ -1,0 +1,15 @@
+{
+	"bindings": {},
+	"outputs": [
+		"Derived/Animations/Dog.banim",
+		"Derived/Meshes/Dog.bmesh",
+		"Derived/Skeletons/Dog.bskel"
+	],
+	"parameters": {
+		"sampleRate": 30.0
+	},
+	"skeleton": "Derived/Skeletons/Dog.bskel",
+	"textureDir": "Derived/SourceTextures/Dog",
+	"textureStampHash": 253998275536815555,
+	"textureStampSize": 3661948
+}

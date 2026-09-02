@@ -1,0 +1,16 @@
+{
+	"legs": [
+		{
+			"ankle": "Dog L Foot",
+			"hip": "Dog L Thigh",
+			"knee": "Dog L Calf",
+			"toe": "Dog L Toe0"
+		},
+		{
+			"ankle": "Dog R Foot",
+			"hip": "Dog R Thigh",
+			"knee": "Dog R Calf",
+			"toe": "Dog R Toe0"
+		}
+	]
+}

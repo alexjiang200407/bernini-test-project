@@ -1,0 +1,16 @@
+{
+	"legs": [
+		{
+			"ankle": "Coyote L Foot",
+			"hip": "Coyote L Thigh",
+			"knee": "Coyote L Calf",
+			"toe": "Coyote L Toe0"
+		},
+		{
+			"ankle": "Coyote R Foot",
+			"hip": "Coyote R Thigh",
+			"knee": "Coyote R Calf",
+			"toe": "Coyote R Toe0"
+		}
+	]
+}
