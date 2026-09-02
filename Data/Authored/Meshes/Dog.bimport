@@ -1,5 +1,14 @@
 {
-	"bindings": {},
+	"bindings": {
+		"Mesh": "Authored/Materials/Dog/Dog.bmaterial",
+		"Mesh.001": "Authored/Materials/Dog/Dog.bmaterial",
+		"Mesh.002": "Authored/Materials/Dog/Dog.bmaterial",
+		"Mesh.003[0]": "Authored/Materials/Dog/Eyes.bmaterial",
+		"Mesh.003[1]": "Authored/Materials/Dog/Eye_Shine.bmaterial",
+		"Mesh.004[0]": "Authored/Materials/Dog/Eyes.bmaterial",
+		"Mesh.004[1]": "Authored/Materials/Dog/Eye_Shine.bmaterial",
+		"Mesh.005": "Authored/Materials/Dog/Dog.bmaterial"
+	},
 	"outputs": [
 		"Derived/Animations/Dog.banim",
 		"Derived/Meshes/Dog.bmesh",

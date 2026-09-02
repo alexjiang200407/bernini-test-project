@@ -1,0 +1,51 @@
+{
+	"alphaCutoff": 0.5,
+	"alphaMode": "blend",
+	"baked": {
+		"baseColor": "Derived/BakedTextures/basecolor_322564741d593df1.ktx2"
+	},
+	"baseColorFactor": [
+		1.0,
+		1.0,
+		1.0,
+		1.0
+	],
+	"editorGraph": "{\"connections\":[{\"inNodeId\":0,\"inPortIndex\":0,\"outNodeId\":1,\"outPortIndex\":0}],\"nodes\":[{\"id\":0,\"internal-data\":{\"baseColorA\":1,\"baseColorB\":1,\"baseColorG\":1,\"baseColorR\":1,\"metallic\":0,\"model-name\":\"BlendedMaterialOutput\",\"roughness\":0.858578622341156,\"specular\":0,\"specularB\":0.8999999761581421,\"specularG\":0.8999999761581421,\"specularR\":0.8999999761581421,\"split\":[false,false,false],\"transmission\":0},\"position\":{\"x\":220,\"y\":40}},{\"id\":1,\"internal-data\":{\"model-name\":\"Texture\",\"texture\":\"Derived/SourceTextures/Dog/Map_4-Map_4.ktx2\"},\"position\":{\"x\":-160,\"y\":0}}]}",
+	"metallicFactor": 0.0,
+	"name": "Eye_Shine",
+	"roughnessFactor": 0.8585786,
+	"routes": {
+		"baseColorA": {
+			"channel": 3,
+			"stampHash": 14838054502288946957,
+			"stampSize": 22256,
+			"texture": "Derived/SourceTextures/Dog/Map_4-Map_4.ktx2"
+		},
+		"baseColorB": {
+			"channel": 2,
+			"stampHash": 14838054502288946957,
+			"stampSize": 22256,
+			"texture": "Derived/SourceTextures/Dog/Map_4-Map_4.ktx2"
+		},
+		"baseColorG": {
+			"channel": 1,
+			"stampHash": 14838054502288946957,
+			"stampSize": 22256,
+			"texture": "Derived/SourceTextures/Dog/Map_4-Map_4.ktx2"
+		},
+		"baseColorR": {
+			"channel": 0,
+			"stampHash": 14838054502288946957,
+			"stampSize": 22256,
+			"texture": "Derived/SourceTextures/Dog/Map_4-Map_4.ktx2"
+		}
+	},
+	"shadingModel": "pbr",
+	"specularColorFactor": [
+		0.9,
+		0.9,
+		0.9
+	],
+	"specularFactor": 0.0,
+	"transmissionFactor": 0.0
+}
