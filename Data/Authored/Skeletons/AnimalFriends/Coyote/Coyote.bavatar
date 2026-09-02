@@ -12,5 +12,9 @@
 			"knee": "Coyote R Calf",
 			"toe": "Coyote R Toe0"
 		}
+	],
+	"unplanted": [
+		"Jump_Up",
+		"Fall"
 	]
 }
